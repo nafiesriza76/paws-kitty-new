@@ -1,38 +1,204 @@
-.App {
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fdfdfd;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.app {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #222;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card {
+  position: relative;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #777;
+}
+
+.summary {
+  text-align: center;
+}
+
+.liked-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.liked-gallery img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #388e3c;
+}
+.badge {
+  position: absolute;
+  top: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 6px 14px;
+  border-radius: 10px;
+  z-index: 10;
+  opacity: 0.9;
+}
+
+.like {
+  left: 10px;
+  background-color: #4caf50;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.nope {
+  right: 10px;
+  background-color: #f44336;
+  color: white;
+}
+.card-img-wrapper {
+  position: relative;
+  margin-bottom: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+.swipe-img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  cursor: grab;
+}
+
+.swipe-img:active {
+  cursor: grabbing;
+  transform: scale(1.01);
+}
+
+.drag-hint {
+  margin-top: 10px;
+  background-color: #eee;
+  color: #555;
+  padding: 6px 14px;
+  font-size: 0.9rem;
+  border-radius: 20px;
+  display: inline-block;
+  animation: pulse 1.6s ease-in-out infinite;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
   }
-  to {
-    transform: rotate(360deg);
+  50% {
+    transform: scale(1.05);
+    opacity: 0.7;
   }
+}
+.swipe-tip {
+  margin-top: 10px;
+  color: #666;
+  font-size: 0.95rem;
+}
+.intro-text {
+  color: #555;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+body {
+  font-family: 'Fredoka', sans-serif;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  color: #222;
+}
+.swipe-instruction {
+  font-size: 1rem;
+  color: #444;
+  background: #f0f0f0;
+  padding: 8px 16px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-top: 10px;
+  animation: fadeBlink 1.6s ease-in-out infinite;
+}
+@keyframes fadeBlink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+.liked-title {
+   font-family: 'Pacifico', cursive;
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: 600;
+  margin: 1rem 0 0.5rem;
+  
+}
+
+.retry-btn {
+  background-color: #6C63FF;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 999px;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.retry-btn:hover {
+  background-color: #574fd6;
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(108, 99, 255, 0.4);
 }
