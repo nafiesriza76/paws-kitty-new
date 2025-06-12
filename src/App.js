@@ -99,7 +99,7 @@ const App = () => {
             <div className="cat-details">
             <p className="cat-name">{cats[index].name}</p>
             <p className={`cat-meta ${cats[index].gender.toLowerCase()}`}>
-             {cats[index].gender === 'Male' ? '♂️' : '♀️'} {cats[index].gender} • {cats[index].color}
+           {cats[index].gender} • {cats[index].color}
             </p>
             </div>
             <p className="swipe-instruction">👈 Swipe left to skip | Swipe right to like! 👉</p>

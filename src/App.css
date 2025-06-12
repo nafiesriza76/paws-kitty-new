@@ -230,21 +230,23 @@ h1 {
 
 .cat-name {
   font-family: 'Pacifico', cursive;
-  font-size: 1.8rem;
-  color: #ff7a85; /* soft coral */
+  font-size: 2.5rem;
+  color: #ff7a85; 
   margin: 0;
 }
 
 .cat-meta {
-  font-size: 1rem;
-  color: #555;
-  margin-top: 5px;
+  font-family: 'Fredoka', sans-serif; 
+  font-size: 0.95rem;
+  color: #444;
+  letter-spacing: 0.5px;
+  margin-top: 4px;
 }
 
 .cat-meta.male {
-  color: #6ca0dc; /* soft sky blue */
+  color: #3b82f6; 
 }
 
 .cat-meta.female {
-  color: #e18ec2; /* soft orchid pink */
+  color: #ec4899; 
 }
