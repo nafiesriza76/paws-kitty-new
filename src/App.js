@@ -96,9 +96,12 @@ const App = () => {
               <img src={cats[index].img} alt="Cat" className="swipe-img" />
             </div>
 
-            <h3 className="cat-profile">
-              {cats[index].name} • {cats[index].gender} • {cats[index].color}
-            </h3>
+            <div className="cat-details">
+            <p className="cat-name">{cats[index].name}</p>
+            <p className={`cat-meta ${cats[index].gender.toLowerCase()}`}>
+            {cats[index].gender} • {cats[index].color}
+            </p>
+            </div>
             <p className="swipe-instruction">👈 Swipe left to skip | Swipe right to like! 👉</p>
           </motion.div>
         </AnimatePresence>

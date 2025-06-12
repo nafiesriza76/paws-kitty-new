@@ -219,3 +219,30 @@ h1 {
   margin: 10px 0;
   font-family: 'Fredoka', sans-serif;
 }
+.cat-details {
+  background-color: #fff8f0;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  margin: 10px 0;
+}
+
+.cat-name {
+  font-family: 'Pacifico', cursive;
+  font-size: 1.5rem;
+  color: #ff6f61;
+  margin: 0;
+}
+
+.cat-meta {
+  font-size: 0.95rem;
+  color: #666;
+  margin: 2px 0 0;
+}
+.cat-meta.male {
+  color: #3366cc;
+}
+
+.cat-meta.female {
+  color: #cc3366;
+}
