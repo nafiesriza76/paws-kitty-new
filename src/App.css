@@ -65,6 +65,16 @@ h1 {
   border-radius: 8px;
 }
 
+.liked-gallery div {
+  text-align: center;
+}
+
+.liked-gallery p {
+  font-size: 0.9rem;
+  margin-top: 6px;
+  color: #666;
+}
+
 button {
   background-color: #4caf50;
   color: white;
@@ -201,4 +211,11 @@ h1 {
   background-color: #574fd6;
   transform: scale(1.05);
   box-shadow: 0 4px 12px rgba(108, 99, 255, 0.4);
+}
+
+.cat-profile {
+  font-size: 1.1rem;
+  color: #444;
+  margin: 10px 0;
+  font-family: 'Fredoka', sans-serif;
 }
