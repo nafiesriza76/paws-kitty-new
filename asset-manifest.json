@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/paws-kitty-new/static/css/main.991e2918.css",
-    "main.js": "/paws-kitty-new/static/js/main.349987b4.js",
+    "main.css": "/paws-kitty-new/static/css/main.5aef5969.css",
+    "main.js": "/paws-kitty-new/static/js/main.843aa6ce.js",
     "static/js/453.dbde6b0b.chunk.js": "/paws-kitty-new/static/js/453.dbde6b0b.chunk.js",
     "index.html": "/paws-kitty-new/index.html",
-    "main.991e2918.css.map": "/paws-kitty-new/static/css/main.991e2918.css.map",
-    "main.349987b4.js.map": "/paws-kitty-new/static/js/main.349987b4.js.map",
+    "main.5aef5969.css.map": "/paws-kitty-new/static/css/main.5aef5969.css.map",
+    "main.843aa6ce.js.map": "/paws-kitty-new/static/js/main.843aa6ce.js.map",
     "453.dbde6b0b.chunk.js.map": "/paws-kitty-new/static/js/453.dbde6b0b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.991e2918.css",
-    "static/js/main.349987b4.js"
+    "static/css/main.5aef5969.css",
+    "static/js/main.843aa6ce.js"
   ]
 }
