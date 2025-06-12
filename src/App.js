@@ -84,7 +84,7 @@ const App = () => {
            <div className="card-img-wrapper">
             <img src={cats[index]} alt="Cat" className="swipe-img" />
           </div>
-         <p className="swipe-instruction">👈 Swipe left to skip | 👉 Swipe right to like!</p>
+         <p className="swipe-instruction">👈 Swipe left to skip |  Swipe right to like! 👉</p>
           </motion.div>
         </AnimatePresence>
       ) : finished ? (
